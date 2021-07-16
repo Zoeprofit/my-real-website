@@ -1,0 +1,214 @@
+#had{
+    display:flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 0px 15px;
+    
+
+}
+
+#hed{
+    display:flex;
+    justify-content: space-between;
+    width: 45%;
+    list-style-type: none;
+    
+
+}
+
+nav button{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    width: 100px;
+    border-radius: 4px;
+    
+
+}
+
+.section1-container{
+    text-align: center;
+    padding-top: 90px;
+    background-image: url("./img/pics1.png");
+    height:40vh;
+    background-size: cover;
+    padding: 10% 0%;
+    background-attachment: fixed;
+}
+
+.section2-container{
+    background-color: white;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.kiy{
+    background-color:black;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: none;
+
+
+}
+
+.pics1{
+    width: 100%;
+    height:200px ;
+}
+.pics2{
+    width: 100%;
+    height:200px ;
+}
+.pics3{
+    width: 100%;
+    height:200px ;
+}
+
+#pics-cont{
+   display: flex;
+   justify-content: space-around;
+}
+
+#pics-cont div {
+    width: 20%;
+    padding-top: 2%;
+}
+
+#div1{
+    background-color: grey;
+    width:100%;
+    text-align: center;
+    height: 40px;
+
+}
+
+#div2{
+    background-color: grey;
+    width:100%;
+    text-align: center;
+    height: 40px;
+}
+#div3{
+    background-color: grey;
+    width:100%;
+    text-align: center;
+    height: 40px;
+
+}
+
+.first-div{
+    
+    text-align: center;
+}
+
+.third-div{
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+
+}
+.secondimg{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-attachment:fixed;
+    background-image: url("./img/pics4.png");
+    color: white;
+   display: flex;
+   justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.secondimg1{
+    font-family: Arial;
+    padding-top: 1%;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-right: 5%;
+}
+.secondimg2{
+    padding-top: 3%;
+    font-size: 20px;
+    padding-right: 5%;
+    width: 500px;
+    
+}
+.secondimg3{
+    text-align: right;
+    font-size: 15px;
+    width: 97%;
+
+}
+
+.element{
+    display: flex;
+    justify-content: space-around;
+}
+
+.element2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kid{
+    
+    display: flex;
+    flex-direction: ;
+    justify-content: space-around;
+    height: 30%;
+    background-color: royalblue;
+}
+
+.lay{
+    height: 50%;
+    padding-top: 16%;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.layed1{
+    color: cyan;
+}
+
+.final{
+    text-align: center;
+  
+    padding-top: 3%;
+
+}
+
+.layed{
+    padding-right:10%;
+    padding-top: 8%;
+    color: white;
+}
+
+.final2{
+    padding-top: 1%;
+}
+
+.red{
+    padding-top: 12%;
+}
+
+.blu{
+    width: 30%;
+    height: 25px;
+}
+
+.butter{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    width: 8%;
+}
+
