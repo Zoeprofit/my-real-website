@@ -211,4 +211,72 @@ nav button{
     border-radius: 2px;
     width: 8%;
 }
+.hamburger{
+    display: none;
+}
+.cancel{
+    display: none;
+}
+.hed-mobile{
+    display: none;
+}
+.mobile-navigation{
+    display: none;
+}
 
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+   #hed{
+       display: none;
+   }
+   .yed{
+       display: none;
+   } 
+   .hamburger{
+       width: 6%;
+       cursor: pointer;
+       display: block;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+  .secondimg{
+      width: 100%;
+  }
+  .secondimg2{
+      width: 100%;
+  }
+  .butter{
+      width: 20%;
+  }
+  hr{
+      width: 30px;
+  }
+  .mobile-navigation{
+      background-color: black;
+      margin-top: -16px;
+  }
+  #hed-mobile{
+      color: white;
+      list-style-type: none;
+  }
+  .yed-mobile{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    width: 100px;
+    border-radius: 4px;
+    margin-bottom: 3%;
+    margin-left: 8%;
+  }
+  .cancel{
+      cursor: pointer;
+  }
+}
