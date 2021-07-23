@@ -160,7 +160,6 @@ nav button{
 .kid{
     
     display: flex;
-    flex-direction: ;
     justify-content: space-around;
     height: 30%;
     background-color: royalblue;
@@ -229,8 +228,9 @@ nav button{
 
 
 
+ 
 
-@media screen and (max-width: 600px)
+@media screen and (min-width:320px) and (max-width:425px)
 {
    #hed{
        display: none;
@@ -239,7 +239,7 @@ nav button{
        display: none;
    } 
    .hamburger{
-       width: 6%;
+       width: 8%;
        cursor: pointer;
        display: block;
        flex-direction: column;
@@ -278,5 +278,46 @@ nav button{
   }
   .cancel{
       cursor: pointer;
+  }
+  #pics-cont{
+    display:flex ;
+    flex-direction: column;
+  }
+  #pics-cont div{
+      width: 100%;
+  }
+  .element{
+      display: flex;
+      flex-direction: column;
+  }
+  .element2{
+      display: flex;
+      flex-direction: column;
+  }
+  .kid{
+      display: flex;
+      flex-direction: column;
+  }
+  .kid img{
+      width: 90%;
+  }
+  .lay{
+      padding-left: 5%;
+  }
+  .layed{
+      padding: 5%;
+  }
+  .grey{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .blu{
+      width: 80%;
+  }
+  .butter{
+      width:50% ;
+      margin-top: 4%;
   }
 }
